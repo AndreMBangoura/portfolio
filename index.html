@@ -90,7 +90,7 @@
       <li>Nettoyage et préparation des données</li>
       <li>Analyse de données avec Excel (Microsoft Power Query, TCD, formules avancées)</li>
       <li>Visualisation de données et storytelling</li>
-      <li>SQL (MySQL, requêtes complexes, gestion de bases de données)</li>
+      <li>SQL (SQLite, MySQL, requêtes complexes, gestion de bases de données)</li>
       <li>Power BI (modélisation de données, création de tableaux de bord dynamiques)</li>
       <li>Python pour l'analyse de données (Pandas, NumPy, Matplotlib)</li>
       <li>Connaissances des principes RGPD et gestion de la confidentialité</li>
@@ -142,7 +142,7 @@
       </ul></p>
       <p><strong>Démarche et Méthodologie</strong> 
       <ul>
-        <li>Création de la base de données **DATAssur** avec deux tables principales :</li>
+        <li>Création dans Sqlite de la base de données **DATAssur** avec deux tables principales :</li>
         <ul>
           <li>**Contrats** (Contrat_ID, Type_Contrat, Surface, Formule, Valeur_Biens, Prix_Cotisation)</li>
           <li>**Regions** (Region_ID, Nom_Region)</li>
@@ -157,15 +157,15 @@
         <li>**Analyses SQL principales :**</li>
         <ul>
           <li>Calculer le **prix moyen de la cotisation mensuelle**</li>
-          <li>Trouver les **5 contrats avec les surfaces les plus élevées**.</li>
           <li>Classer les **10 départements avec le prix moyen de cotisation le plus élevé**.</li>
           <li>Déterminer le **nombre de contrats par région**.</li>
+          <li>Trouver les **5 contrats avec les surfaces les plus élevées**.</li>
         </ul>
       </ul></p>
     <p><strong>Résultats clés :</strong> 
       <ul>
         <li>Prix moyen de la cotisation mensuelle : 19,33 euros.</li>
-        <li>Top 3 des départements par cotisation :
+        <li>Top 3 des départements avec le prix moyen de cotisation le plus élevé :
           <ul>
             <li>Paris : 36,4 euros</li>
             <li>Hauts-de-Seine : 26,25 euros</li>
