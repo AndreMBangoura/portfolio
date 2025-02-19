@@ -140,6 +140,28 @@
         <li>Standardiser la politique tarifaire</li>
         <li>Créer des rapports et présentations pour exposer les résultats et la méthodologie</li>
       </ul></p>
+      <p><strong>Démarche et Méthodologie</strong> 
+      <ul>
+        <li>Création de la base de données **DATAssur** avec deux tables principales :</li>
+        <ul>
+          <li>**Contrats** (Contrat_ID, Type_Contrat, Surface, Formule, Valeur_Biens, Prix_Cotisation)</li>
+          <li>**Regions** (Region_ID, Nom_Region)</li>
+          <li> Données sources : fichiers CSV `Contrat.csv` et `Region.csv`</li>
+        </ul>
+        <li>Exploration type de données </li>
+        <ul>
+          <li>Vérification du contenu alphanumérique de chaque colonne </li>
+          <li>Calcul de la longueur maximale des valeurs de chaque colonne </li>
+        </ul>
+        
+        <li>**Analyses SQL principales :**</li>
+        <ul>
+          <li>Calculer le **prix moyen de la cotisation mensuelle**</li>
+          <li>Trouver les **5 contrats avec les surfaces les plus élevées**.</li>
+          <li>Classer les **10 départements avec le prix moyen de cotisation le plus élevé**.</li>
+          <li>Déterminer le **nombre de contrats par région**.</li>
+        </ul>
+      </ul></p>
     <p><strong>Résultats clés :</strong> 
       <ul>
         <li>Prix moyen de la cotisation mensuelle : 19,33 euros.</li>
