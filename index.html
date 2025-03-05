@@ -1,0 +1,278 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mon Portfolio - André Mamadouba BANGOURA</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background-color: #005f99;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav a {
+      margin: 0 15px;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    section h2 {
+      background-color: #0077b6; /* Bleu profond */
+      color: white;
+      padding: 10px;
+      border-radius: 5px;
+    }
+    img.profile {
+      width: 150px;
+      border-radius: 50%;
+      display: block;
+      margin: 20px auto;
+    }
+    footer {
+      text-align: center;
+      padding: 10px;
+      background-color: #005f99;
+      color: white;
+    }
+    #skills ul li {
+  margin-bottom: 10px;
+    }
+    .project { border: 1px solid #ddd; border-radius: 8px; padding: 20px; margin-bottom: 20px; background-color: #fff; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); }
+    .project h3 { color: #0077b6; font-size: 1.8em; margin-bottom: 10px; }
+    .project p, .project ul { font-size: 1.1em; line-height: 1.6; }
+    .project ul { margin-left: 20px; }
+    .project a { display: inline-block; margin-top: 15px; padding: 10px 15px; background-color: #0077b6; color: white; text-decoration: none; border-radius: 5px; transition: background-color 0.3s; }
+    .project a:hover { background-color: #005f99; }
+    section h2, .project h3 {
+    text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>André Mamadouba BANGOURA - Data Analyst</h1>
+    <nav>
+      <a href="#about">À propos</a>
+      <a href="#skills">Mes Compétences</a>
+      <a href="#projects">Projets</a>
+      <a href="#cv">CV</a>
+      <a href="#certifications">Certifications</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="about">
+    <img src="images/photo1.jpg" alt="André Mbangoura" class="profile" />
+    <h2>À propos de moi</h2>
+    <p>Passionné par l'analyse de données, je suis un Data Analyst en recherche d'alternance, motivé à utiliser les données pour résoudre des problématiques métier. J'ai récemment suivi un bootcamp spécialisé, où j'ai eu l'occasion de travailler sur quatre projets concrets, ce qui m'a permis de perfectionner mes compétences techniques, tout en acquérant une compréhension approfondie des enjeux liés à la gestion des données.</p>
+    <p>Au cours de cette formation, j'ai maîtrisé des outils incontournables tels que <Strong>SQL</Strong>, <Strong>Excel</Strong> et <Strong>Power BI</Strong>, et j'ai développé une expertise en visualisation de données, gestion de bases de données et en compréhension des principes <Strong>RGPD</Strong>.</p>
+    <p>Mon objectif est de mettre ces compétences en œuvre pour fournir des solutions basées sur les données qui aident les entreprises à prendre des décisions éclairées, à optimiser leurs processus et à maximiser leur performance.</p>
+  </section>
+
+  <section id="skills">
+    <h2>Mes Compétences</h2>
+    <ul>
+      <li>Nettoyage et préparation des données</li>
+      <li>Analyse de données avec Excel (Microsoft Power Query, TCD, formules avancées)</li>
+      <li>Visualisation de données et storytelling</li>
+      <li>SQL (SQliteStudio, MySQL, requêtes complexes, gestion de bases de données)</li>
+      <li>Power BI (modélisation de données, création de tableaux de bord dynamiques)</li>
+      <li>Python pour l'analyse de données (Pandas, NumPy, Matplotlib)</li>
+      <li>Connaissances des principes RGPD et gestion de la confidentialité</li>
+    </ul>
+  </section>
+  
+  <section id="projects">
+    <h2>Mes Projets</h2>
+    <p>Dans le cadre de mon bootcamp Analyse de données, voici les quatre projets que j'ai eu à réaliser :</p>
+    <div class="project">
+    <h3>Projet 1 : Primero Bank - Analyse des Départs de Clients</h3>
+    <p><strong>Contexte du Projet :</strong> Primero Bank, une banque 100% en ligne, a observé une hausse de son taux d'attrition et souhaitait comprendre les raisons des départs. L'analyse a utilisé des données démographiques et financières.</p>
+    <p><strong>Objectifs :</strong>
+      <ul>
+        <li>Analyser les caractéristiques des clients ayant quitté la banque.</li>
+        <li>Identifier les facteurs influençant les départs.</li>
+        <li>Repérer les segments à risque et proposer des recommandations.</li>
+      </ul>
+    </p>
+    <p><strong>Méthodologie :</strong> 
+      <ul>
+        <li>Nettoyage des données</li>
+        <li>Création de TCD pour analyser le comportement des clients par type de carte, selon Revenu Annuel, 
+          selon le Genre, le Niveau d’Études, selon le Statut Marital, ou encore les Comportements Financiers.</li>
+        <li>Utilisation des graphiques à barres, à colonnes et histogrammes empilés pour visualiser les segments à risque.</li>
+      </ul>
+    </p>
+    <p><strong>Résultats Clés:</strong> 
+      <ul>
+        <li>Le taux d'attrition global est de <Strong>16,15%</Strong></li>
+        <li>La carte <Strong>Platinum</Strong> a le taux de départ le plus élevé (<Strong>70% des détenteurs ont quitté la banque</Strong>).</li>
+        <li>Catégorie de revenu : Les tranches de <Strong>60 à 80 K$</Strong> sont à risque. Les tranches de <Strong>moins de 40 K$</Strong> et <Strong>au-delà de 120 K$</Strong> sont plus stables</li>
+        <li>Utilisation de la carte : Une <Strong> faible utilisation</Strong> est associée à un risque de <Strong>départ élevé</Strong>.</li>
+        <li>Durée d’engagement : Plus faible pour les clients perdus</li>
+      </ul></p>
+    <p><strong>Recommandations:</strong> Amélioration des offres pour segments à risque, programmes de fidélisation, flexibilité des options de paiement et formation du personnel.</p>
+    <p>Vous pouvez consulter le projet (documents et résultats) sur ma page <a href="https://github.com/AndreMBangoura/Bootcamp-Analyse-de-donnees" target="_blank">GitHub</a></p>
+     
+    </div>
+    <div class="project">
+  <h3>Projet 2 : Dat’Assur Habitation - Standardiser les tarifs pour offrir des prix compétitifs </h3>
+    <p><strong>Contexte :</strong> Analyse du portefeuille de contrats de Dat’Assur pour standardiser la politique tarifaire.</p>
+    <p><strong>Objectifs :</strong> 
+      <ul>
+        <li>Créer une base de données unifiée.</li>
+        <li>Analyser le portefeuille pour identifier les différences de tarification</li>
+        <li>Standardiser la politique tarifaire</li>
+        <li>Créer des rapports et présentations pour exposer les résultats et la méthodologie</li>
+      </ul></p>
+      <p><strong>Démarche et Méthodologie :</strong> 
+      <ul>
+        <li>Création dans SQLite de la base de données <Strong>DATAssur</Strong> avec deux tables principales :</li>
+        <ul>
+          <li><Strong>Contrats</Strong> (Contrat_ID, Type_Contrat, Surface, Formule, Valeur_Biens, Prix_Cotisation)</li>
+          <li><Strong>Regions</Strong> (Region_ID, Nom_Region)</li>
+          <li> Données sources : fichiers CSV <Strong>`Contrat.csv`</Strong> et <Strong>`Region.csv`</li></Strong>
+        </ul>
+        <li>Exploration type de données :</li>
+        <ul>
+          <li>Vérification du contenu alphanumérique de chaque colonne. </li>
+          <li>Calcul de la longueur maximale des valeurs de chaque colonne. </li>
+        </ul>
+        <li>Analyses SQL principales :</li>
+        <ul>
+          <li>Calculer le prix moyen de la cotisation mensuelle.</li>
+          <li>Classer les 10 départements avec le prix moyen de cotisation le plus élevé.</li>
+          <li>Déterminer le nombre de contrats par région.</li>
+          <li>Trouver les 5 contrats avec les surfaces les plus élevées.</li>
+        </ul>
+      </ul></p>
+    <p><strong>Technologies et Outils Utilisés :</strong> 
+      <ul>
+        <li><Strong>SQliteStudio</Strong> : pour l'importation, l'exploration et la manipulation des données.</li>
+        <li>Excel, Word et PowerPoint : Pour la présentation des livrables.</li>
+      </ul></p>
+    <p><strong>Résultats clés :</strong> 
+      <ul>
+        <li>Prix moyen de la cotisation mensuelle : <Strong>19,33 euros</Strong>.</li>
+        <li>Top 3 des départements avec le prix moyen de cotisation le plus élevé :
+          <ul>
+            <li>Paris : <Strong>36,4 euros</Strong></li>
+            <li>Hauts-de-Seine : <Strong>26,25 euros</Strong></li>
+            <li>Val-de-Marne : <Strong>19,82 euros</Strong></li>
+          </ul>
+          </li>
+          <li>Top 3 nombre de contrat par région :
+            <ul>
+              <li>Île-de-France : <Strong>14 179</Strong></li>
+              <li>Provence-Alpes-Côte d’Azur : <Strong>3 279</Strong></li>
+              <li>Auvergne-Rhône-Alpes : <Strong>3 056</Strong></li>
+            </ul>
+            </li>
+      </ul>
+          <p>Vous pouvez consulter le projet (documents et résultats) sur ma page <a href="https://github.com/AndreMBangoura/Bootcamp-Analyse-de-donnees" target="_blank">GitHub</a></p>
+    </div>
+      <div class="project">
+  <h3>Projet 3 :  Conformité et Confiance : Renforcer la Gestion des Données chez Dev’Immediat </h3>
+    <p><strong>Contexte :</strong> Ce projet de conseil pour Dev’Immediat, une entreprise spécialisée en assurance automobile, avait pour objectif de mettre en conformité ses pratiques avec le Règlement Général sur la Protection des Données (RGPD). 
+      Cette démarche faisait suite à une sanction de la CNIL liée à une utilisation inappropriée des données personnelles.</p>
+    <p><strong>Objectifs :</strong> 
+      <ul>
+        <li>Réviser et améliorer les pratiques de gestion des données pour garantir la conformité avec le RGPD.</li>
+        <li>Minimiser les risques de non-conformité tout en améliorant l'efficacité opérationnelle.</li>
+        <li>Lever les sanctions de la CNIL et améliorer la réputation de l'entreprise.</li>
+      </ul></p>
+    <p><strong>Démarche et Méthodologie :</strong> 
+      <ul>
+        <li>Audit des Données Existantes : Réalisation d'un audit pour identifier les données traitées non conformément au RGPD.</li>
+        <li>Anonymisation des Données : Utilisation de techniques d'anonymisation et de pseudonymisation pour préparer les données pour les analyses internes, 
+          en veillant à éliminer tout identifiant direct ou indirect.</li>
+        <li> Formation et Sensibilisation : Mise en place de formations pour le personnel sur les meilleures pratiques de gestion des données et le respect du RGPD.</li>
+        <li>Documentation et Rapports : Rédaction de recommandations sur les règles de gestion des données à mettre en place et documentation des processus dans un rapport détaillé.</li>
+      </ul></p>
+    <p><strong>Technologies et Outils Utilisés :</strong> 
+      <ul>
+        <li><Strong>SQliteStudio :</Strong> pour l'extraction et la manipulation initiale des données.</li>
+        <li><Strong>Microsoft Power Query et Excel :</Strong> pour le nettoyage, la préparation, et l'anonymisation des données.</li>
+      </ul></p>
+    <p><strong>Résultats :</strong> 
+      <ul>
+        <li>Conformité au RGPD : Les actions prises ont permis de répondre aux exigences de la CNIL, levant les sanctions précédemment imposées.</li>
+        <li>Augmentation de la Sécurité des Données : Renforcement significatif des mesures de sécurité des données, réduisant les risques de non-conformité future.</li>
+          <li>Sensibilisation Accrue : Amélioration de la compréhension interne des enjeux liés au RGPD parmi le personnel, assurant une meilleure gestion des données à long terme.</li>
+      </ul>
+    <p><strong>Conclusion :</strong> 
+      <ul>
+        <li>Ce projet a démontré l'importance de la conformité au RGPD pour les entreprises traitant des données personnelles.</li>
+        <li>Il a permit de poser les bases d'une gestion des données plus sécurisée et conforme, essentielle pour la confiance 
+          des clients et la compétitivité de l'entreprise dans le secteur de l'assurance automobile.</li>
+      </ul></p>
+         <p>Vous pouvez consulter le projet (documents et résultats) sur ma page <a href="https://github.com/AndreMBangoura/Bootcamp-Analyse-de-donnees" target="_blank">GitHub</a></p>
+      </div>
+  
+      
+    <div class="project">
+  <h3> Projet 4 : Tableau de Bord pour Sanitoral </h3>
+    <p><strong>Contexte :</strong> En tant que Data Analyst consultant chez ESN Data, j'ai été chargé de développer un tableau de bord dynamique pour Sanitoral, 
+      un leader international dans le secteur des soins bucco-dentaires. Ce projet avait pour cadre une mission globale de visualisation de données destinée 
+      à optimiser la gestion des projets de l'entreprise à travers des insights actionnables.</p>
+    <p><strong>Objectifs :</strong> 
+      <ul>
+        <li>Développer un tableau de bord Power BI qui permet aux directeurs (général, régionaux et de pays) de surveiller l'avancement des projets, d'identifier les retards 
+          et d'évaluer les performances pour une prise de décision rapide et éclairée.</li>
+      </ul></p>
+    <p><strong>Méthodologie :</strong> 
+      <ul>
+        <li>Élaboration du Product Strategy Canvas : Identification des besoins des utilisateurs et définition des fonctionnalités clés du tableau de bord pour assurer un suivi efficace des projets.</li>
+        <li>Préparation des Données : Utilisation de Power Query pour nettoyer et structurer les données issues du système de gestion de projets de Sanitoral, couvrant la période de 2018 à début 2022.</li>
+        <li>Modélisation des Données : Création d'un modèle en étoile pour optimiser les requêtes et soutenir des visualisations interactives dans Power BI.</li>
+        <li>Création du Tableau de Bord : Conception d'interfaces utilisateur intuitives et interactives, intégrant des visualisations comme les diagrammes de Gantt et des filtres avancés pour une analyse détaillée par région, pays, et type de projet.</li>
+      </ul></p>
+    <p><strong>Résultats :</strong> 
+      <ul>
+        <li>Le tableau de bord a permis une visualisation précise et dynamique de l'état des projets, facilitant la détection des défaillances et l'ajustement des stratégies en temps réel.</li>
+        <li>L'outil a significativement amélioré la capacité de réponse de l'équipe de gestion face aux écarts de performance, contribuant à une meilleure efficacité opérationnelle chez Sanitoral.</li>
+      </ul>
+          <p>Vous pouvez consulter le projet (documents et résultats) sur ma page <a href="https://github.com/AndreMBangoura/Bootcamp-Analyse-de-donnees" target="_blank">GitHub</a></p>
+    </div>
+  </section>
+
+  <section id="cv">
+    <h2>Mon CV</h2>
+    <p>Ici, vous pouvez consulter mon CV. <a href="cv.pdf" target="_blank">Télécharger mon CV</a></p>
+  </section>
+
+  <section id="certifications">
+    <h2>Mes Certifications</h2>
+    <p>Vous pouvez consulter et télécharger mes certifications ci-dessous :</p>
+    <ul>
+      <li><a href="certifications/Certificat_Analyse_de_donnees.pdf" target="_blank">Certification - Analyse de données</a></li>
+      <li><a href="certifications/certification1.pdf" target="_blank">Certification - Développez votre culture des données</a></li>
+      <!-- Ajoutez d'autres certifications ici -->
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email : <a href="mailto:andrembangoura@gmail.com">andrembangoura@gmail.com</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 André Mamadouba BANGOURA</p>
+  </footer>
+</body>
+</html>
