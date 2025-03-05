@@ -1,5 +1,4 @@
-# portfolio
-  # [Portfolio de André Mbangoura](https://andrembangoura.github.io/portfolio/)
+# [Portfolio de André Mbangoura](https://andrembangoura.github.io/portfolio/)
   Ce portfolio présente mon parcours en tant que Data Analyst, mes compétences, certifications et projets réalisés.
 ## Structure du projet  
   - `index.html` : Page principale du portfolio
