@@ -10,4 +10,5 @@
 - **HTML5** pour la structure de la page
 - **CSS3** pour le style
 - **GitHub Pages** pour l'hébergement
-## Contact  - Email : andrembangoura@gmail.com
+## Contact  
+- Email : andrembangoura@gmail.com
